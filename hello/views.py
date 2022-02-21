@@ -12,3 +12,15 @@ class MyView(View):
     @request_mapping("/", method="get")
     def home(self,request):
         return render(request,'home.html');
+    @request_mapping("/next2", method="get")
+    def home(self,request):
+        return render(request,'next2.html');
+    @request_mapping("/next3", method="get")
+    def home(self,request):
+        return render(request,'next3.html');
+    @request_mapping("/next4", method="get")
+    def home(self,request):
+        return render(request,'next4.html');
+    @request_mapping("/next5", method="get")
+    def home(self,request):
+        return render(request,'next5.html');
